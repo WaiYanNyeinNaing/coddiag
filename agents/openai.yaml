@@ -1,0 +1,12 @@
+interface:
+  display_name: "CodDiag"
+  short_description: "Explain feature steps with verified visual maps"
+  default_prompt: "Use $coddiag to create a concise, source-verified visual report of this feature or diff, with an overview, one flow per stage, focused data and failure maps, and project essentials covering important files, safe configuration names, and Git context."
+  icon_small: "./assets/icon.svg"
+  icon_large: "./assets/icon.svg"
+policy:
+  products:
+  - "chatgpt"
+  - "codex"
+  - "atlas"
+  allow_implicit_invocation: true

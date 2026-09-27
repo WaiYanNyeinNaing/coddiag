@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+
+# Local report inputs and generated walkthroughs
+report.json
+walkthrough.md
+candidate.txt
+evidence-prompt.txt
